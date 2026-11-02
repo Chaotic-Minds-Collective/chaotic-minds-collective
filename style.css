@@ -56,7 +56,7 @@ section{padding:64px 0}
 .card .num{font-family:'JetBrains Mono',monospace;color:var(--turq);font-size:.66rem;letter-spacing:.2em;margin-bottom:12px;display:block}
 .card p{color:var(--ash);font-size:.94rem;margin-top:8px}
 .card .tag{margin-top:14px;display:inline-block;font-family:'JetBrains Mono',monospace;font-size:.64rem;letter-spacing:.1em;color:var(--turq-dim);text-transform:uppercase}
-.card a.stretch{position:absolute;inset:0;z-index:1}
+.cardBadge{width:46px;height:46px;border-radius:50%;border:1px solid var(--turq-dim);margin-bottom:14px;box-shadow:0 0 14px rgba(0,229,208,.25)}
 a.cardLink{text-decoration:none;color:inherit;display:block}
 
 .split{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px;align-items:center}
@@ -65,10 +65,6 @@ a.cardLink{text-decoration:none;color:inherit;display:block}
 blockquote{font-size:1.12rem;font-style:italic;color:var(--bone);margin:18px 0}
 blockquote::before{content:"\201C";color:var(--turq);font-size:2.6rem;line-height:0;vertical-align:-.35em;margin-right:6px}
 .src{font-family:'JetBrains Mono',monospace;font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:var(--turq-dim)}
-ul.list{list-style:none;margin:14px 0 0}
-ul.list li{padding:10px 0 10px 26px;border-bottom:1px solid var(--line);color:var(--ash);position:relative}
-ul.list li::before{content:"\2720";position:absolute;left:0;color:var(--turq);font-size:.8rem}
-ul.list li b{color:var(--bone);font-weight:600}
 
 .contactBand{text-align:center;padding:72px 0 90px;border-top:1px solid var(--line)}
 .contactBand .badge{width:min(190px,50vw);border-radius:50%;margin:0 auto 30px;display:block;box-shadow:0 0 46px rgba(0,229,208,.14)}
