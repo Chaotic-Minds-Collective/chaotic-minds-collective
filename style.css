@@ -73,3 +73,12 @@ blockquote::before{content:"\201C";color:var(--turq);font-size:2.6rem;line-heigh
 
 footer{border-top:1px solid var(--line);padding:26px 0;text-align:center;color:var(--ash);font-family:'JetBrains Mono',monospace;font-size:.64rem;letter-spacing:.18em;text-transform:uppercase}
 footer span{color:var(--turq-dim)}
+/* Accessibility: respect reduced motion; never leave .rv content invisible */
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  .rv{animation:none !important;opacity:1 !important;transform:none !important}
+  .heroArt img{animation:none !important}
+}
+@supports not (animation-name: rise){
+  .rv{opacity:1;transform:none}
+}
