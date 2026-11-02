@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect width="400" height="400" rx="28" fill="#0A0F0E"/><circle cx="200" cy="185" r="110" fill="none" stroke="#00E5D0" stroke-width="4"/><circle cx="200" cy="185" r="92" fill="none" stroke="#0A8F84" stroke-width="2" stroke-dasharray="8 6"/><g transform="translate(200,180) scale(0.75)" fill="none" stroke="#00E5D0" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="0" cy="-10" rx="62" ry="70"/>
+<path d="M-40 40 L-40 62 Q-40 74 -28 74 L-16 74 L-16 88 L16 88 L16 74 L28 74 Q40 74 40 62 L40 40"/>
+<path d="M-30 40 L-30 70 M-16 42 L-16 74 M-2 42 L-2 78 M12 42 L12 74 M26 40 L26 70"/>
+<circle cx="-22" cy="-6" r="14" fill="#00E5D0" opacity=".9"/>
+<circle cx="22" cy="-6" r="14" fill="#00E5D0" opacity=".9"/>
+<path d="M0 14 L-9 34 L9 34 Z" fill="#00E5D0" opacity=".7" stroke="none"/>
+<path d="M-38 -38 q10 -18 24 -6 M14 -46 q16 -6 22 12" stroke="#0A8F84" stroke-width="4"/>
+</g><text x="200" y="330" text-anchor="middle" font-family="monospace" font-size="18" letter-spacing="5" fill="#8AA39E">CHAOTIC MINDS</text></svg>
