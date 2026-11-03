@@ -24,20 +24,22 @@
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 </head>
 <body>
+  <a class="skipLink" href="#main">Skip to content</a>
 <div class="grain"></div>
 <header>
   <div class="nav">
     <a class="brand" href="index.html"><span class="dot">&#9760;</span><b>Chaotic&nbsp;Minds</b></a>
-    <nav>
+    <nav aria-label="Primary">
       <a href="index.html">Home</a>
       <a href="solutions.html">Solutions</a>
       <a href="creations.html">Creations</a>
       <a href="gaming.html">Gaming</a>
       <a href="ventures.html">Ventures</a>
-      <a href="contact.html" class="active">Contact</a>
+      <a href="contact.html" class="active" aria-current="page">Contact</a>
     </nav>
   </div>
 </header>
+  <main id="main">
 
 <div class="wrap">
   <section class="pageHero" style="text-align:center">
@@ -89,7 +91,8 @@
   </section>
 </div>
 
-<footer>
+</main>
+  <footer>
   <div class="wrap">&copy; 2026 Chaotic Minds Collective <span>&middot;</span> One mind. Many ways to create</div>
 </footer>
 </body>
