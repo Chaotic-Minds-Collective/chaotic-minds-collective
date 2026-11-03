@@ -53,6 +53,36 @@
       <article class="card rv d4"><span class="num">OTHER</span><h3>Everything else</h3><p>Partnerships, press, or ideas that don't fit a box. Those are usually the best ones.</p></article>
     </div>
   </section>
+  <section>
+    <form class="contactForm rv d2" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="PASTE_WEB3FORMS_ACCESS_KEY_HERE">
+      <input type="hidden" name="subject" value="New message from chaoticmindscollective.com">
+      <input type="hidden" name="from_name" value="CMC Website Contact Form">
+      <input type="checkbox" name="botcheck" style="display:none" tabindex="-1">
+      <div class="fieldRow">
+        <label>Name
+          <input type="text" name="name" required placeholder="Your name">
+        </label>
+        <label>Email
+          <input type="email" name="email" required placeholder="you@example.com">
+        </label>
+      </div>
+      <label>Division
+        <select name="division" required>
+          <option value="" disabled selected>Choose a division</option>
+          <option>Chaotic Solutions</option>
+          <option>Chaotic Creations</option>
+          <option>Chaotic Gaming</option>
+          <option>Other</option>
+        </select>
+      </label>
+      <label>Message
+        <textarea name="message" rows="6" required placeholder="What&#39;s on your mind?"></textarea>
+      </label>
+      <button type="submit" class="cta">Send message</button>
+      <p class="formNote">Straight to support@chaoticmindscollective.com - no newsletters, no sharing. Prefer email? <a class="mail" href="mailto:support@chaoticmindscollective.com">support@chaoticmindscollective.com</a></p>
+    </form>
+  </section>
   <section class="contactBand" style="border-top:none">
     <img class="badge rv" src="assets/badge.png" alt="Chaotic Minds Collective badge">
     <a class="mail" href="mailto:support@chaoticmindscollective.com">support@chaoticmindscollective.com</a>
