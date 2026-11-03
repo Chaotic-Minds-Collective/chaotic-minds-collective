@@ -92,3 +92,10 @@ footer span{color:var(--turq-dim)}
 .contactForm button{justify-content:center;cursor:pointer;background:transparent;font-family:'JetBrains Mono',monospace}
 .contactForm button:hover{background:var(--turq);color:#050807}
 .contactForm .formNote{font-family:'JetBrains Mono',monospace;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ash);opacity:.75;text-align:center;line-height:1.7}
+
+/* Accessibility (Phase 4) */
+.skipLink{position:absolute;left:-9999px;top:0;z-index:100;background:var(--turq);color:var(--ink);font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;padding:10px 16px;text-decoration:none}
+.skipLink:focus{left:12px;top:12px}
+a:focus-visible,button:focus-visible,select:focus-visible{outline:2px solid var(--turq);outline-offset:3px}
+nav a[aria-current="page"]{color:var(--turq);border-bottom-color:var(--turq)}
+main{display:block}
