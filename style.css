@@ -82,3 +82,13 @@ footer span{color:var(--turq-dim)}
 @supports not (animation-name: rise){
   .rv{opacity:1;transform:none}
 }
+/* Contact form (Phase 3) */
+.contactForm{max-width:640px;margin:56px auto 0;display:grid;gap:16px;padding:0 20px}
+.contactForm label{display:grid;gap:8px;font-family:'JetBrains Mono',monospace;font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:var(--turq-dim)}
+.contactForm input,.contactForm select,.contactForm textarea{background:rgba(255,255,255,.02);border:1px solid var(--line);color:var(--ash);padding:12px 14px;font-family:'Spectral',serif;font-size:1rem;border-radius:2px;transition:border-color .2s}
+.contactForm input:focus-visible,.contactForm select:focus-visible,.contactForm textarea:focus-visible{outline:none;border-color:var(--turq);box-shadow:0 0 0 1px rgba(0,229,208,.25)}
+.contactForm .fieldRow{display:grid;gap:16px}
+@media(min-width:720px){.contactForm .fieldRow{grid-template-columns:1fr 1fr}}
+.contactForm button{justify-content:center;cursor:pointer;background:transparent;font-family:'JetBrains Mono',monospace}
+.contactForm button:hover{background:var(--turq);color:#050807}
+.contactForm .formNote{font-family:'JetBrains Mono',monospace;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ash);opacity:.75;text-align:center;line-height:1.7}
