@@ -1,5 +1,9 @@
-# Files kept out of the public site bundle.
-README.md
-CNAME
-.wrangler
-node_modules
+# Only public website files belong in the asset bundle.
+**
+!/*.html
+!/style.css
+!/robots.txt
+!/sitemap.xml
+!/assets/
+!/assets/*.png
+!/assets/*.svg
