@@ -1,0 +1,10 @@
+{
+  // Cloudflare Workers static-assets config for the CMC parent site.
+  // Repo is plain static HTML: no build step, serve the repo root directly.
+  "name": "chaotic-minds-collective",
+  "compatibility_date": "2026-11-06",
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "404-page"
+  }
+}
